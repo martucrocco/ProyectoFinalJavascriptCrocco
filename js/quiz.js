@@ -1,4 +1,12 @@
-
+function bienvenidx (name){
+    alert("bienvenidx" + " " + name);
+}
+let ingresoNombre = prompt("Ingrese su nombre");
+while (ingresoNombre == "") {
+    ingresoNombre=prompt("Debe ingresar su nombre para continuar");
+    
+}
+bienvenidx(ingresoNombre);
 function verificarRespuestas() {
     let total= 3; 
     let puntos= 0;
