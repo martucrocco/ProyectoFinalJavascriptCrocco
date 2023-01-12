@@ -6,45 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./img/maradona-imagen.ico">
     <link rel="stylesheet" href="./estilos/estilos.css">
-    <title>Recordemos a Diego de la mejor manera</title>
+    <title>Login</title>
 </head>
-<body>
-    <div class="container">
-        <header>
-            <h1>TRIVIA DEL DIEGO</h1>
-        </header>
-        <section>
-            <form name="triviaForm" onsubmit="return verificarRespuestas()">
-            
-                <h3>1. ¿En que año debuto el Diego en la seleccion Argentina?</h3>
-                <input type="radio" name="p1" value="a"> a. 1977 <br>
-                <input type="radio" name="p1" value="b"> b. 1980 <br>
-                <input type="radio" name="p1" value="c"> c. 1982 <br>
-            
-                <h3>2. ¿Cuántos años tenía Diego cuando debutó en Primera?   </h3>
-                <input type="radio" name="p2" value="a"> a. 18 <br>
-                <input type="radio" name="p2" value="b"> b. 15 <br>
-                <input type="radio" name="p2" value="c"> c. 17 <br>
-            
-                <h3>3. ¿Contra que selección fue la mano de Dios?            </h3>
-                <input type="radio" name="p3" value="a"> a. Inglaterra <br>
-                <input type="radio" name="p3" value="b"> b. Francia    <br>
-                <input type="radio" name="p3" value="c"> c. Brasil     <br>
-            
-             <br>
-             <input type="submit" value="enviar">
-            </form>
-        </section>
-        <div id="resultado"></div>
-        
+<body class="login">
+    <main>
+        <div class="container__todo">
+            <div class="login__caja">
+                <div class="login__enter">
+                    <h3>¿Ya tenés una cuenta?</h3>
+                    <p>Inicia sesión para participar</p>
+                    <button id="btn__iniciosesion">Iniciar sesión</button>
+                </div>
+                <div class="registro__enter">
+                    <h3>¿No tenés una cuenta?</h3>
+                    <p>Registrate para poder iniciar sesión y participar</p>
+                    <button id="btn__registro">Registrate acá</button>
+                </div>
+            </div>
 
+            <div class="contenedor__form">
+                <form action="" class="form__login" id="iniciosesion">
+                    <h2>Iniciar sesión</h2>
+                    <input type="text"placeholder="Usuario">
+                    <input type="text"placeholder="Contraseña">
+                    <button id="btn__entrar">Entrar</button>
+                    
+                </form>
 
-
-
-    </div>
-
-
-
-    <script src="./js/quiz.js"></script>
+                <form action="" class="form__registro">
+                    <h2>Registrate!</h2>
+                    <input type="text" placeholder="Nombre" id="nombre">
+                    <input type="text" placeholder="Email" id="email">
+                    <input type="text" placeholder="Usuario" id="usuario">
+                    <input type="text" placeholder="Contraseña" id="contraseña">
+                    <button id="btn__registrate">Registrate</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="./js/login.js"></script>
 </body>
 </html>
