@@ -108,12 +108,12 @@ function usuarioNuevo() {
   const botonEntrar = document.getElementById("btn__entrar");
 
   botonEntrar.addEventListener("click", () => {
-          document.location.href = "http://127.0.0.1:5500/vistas/trivia.html";
+          window.location.href = "./vistas/trivia.html";
   });
 
   const botonRegistro = document.getElementById("btn__registrate");
 
   botonRegistro.addEventListener("click",() => {
-         document.location.href = "http://127.0.0.1:5500/vistas/trivia.html";
+         window.location.href = "./vistas/trivia.html";
   });
 

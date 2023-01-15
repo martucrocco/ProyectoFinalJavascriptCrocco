@@ -1,9 +1,9 @@
 
 function verificarRespuestas() {
-    let total= 3; 
+    let total= 5; 
     let puntos= 0;
     let quiz = document.forms["triviaForm"];
-    let respuestas = ["a", "b", "a"];
+    let respuestas = ["a", "b", "a","c","a"];
     for(i=1; i<= total; i++){
         if(quiz["p" + i].value === null || quiz["p" + i].value === ""){
             alert("Por favor responde la pregunta" + " " + i);
