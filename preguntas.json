@@ -1,0 +1,27 @@
+[
+    {
+        "pregunta1": "¿En que año debuto el Diego en la seleccion Argentina?",
+        "respuestaCorrecta": "1977",
+        "respuestasIncorrectas":["1980","1982"] 
+    },
+    {
+        "pregunta2": "¿Cuántos años tenía Diego cuando debutó en Primera división del futbol Argentino?",
+        "respuestaCorrecta": "15",
+        "respuestasIncorrectas":["18","17"]
+    },
+    {
+        "pregunta3": "¿Contra que selección fue la mano de Dios?",
+        "respuestaCorrecta": "Inglaterra",
+        "respuestasIncorrectas":["Francia", "Brasil"]
+    },
+    {
+        "pregunta4": "¿Cuantos años tenía Diego cuando levanto la copa del mundo?",
+        "respuestaCorrecta": "25",
+        "respuestasIncorrectas":["27","22"]
+    },
+    {
+        "pregunta5":"¿Cuantos hermanxs conforman la familia Maradona?",
+        "respuestaCorrecta":"8",
+        "respuestasIncorrectas":["7","9"]
+    }
+]

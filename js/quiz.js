@@ -19,3 +19,11 @@ function verificarRespuestas() {
 
     return false;
 }
+
+function cargarJSON(){
+    fetch("./preguntas.json")
+    .then(function (preguntas){
+        console.log(preguntas)
+    }
+    )
+}

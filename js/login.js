@@ -86,7 +86,7 @@ class registroPage {
     }
 }
 
-const formregistro = document.getElementById('form__registro');
+const formregistro = new FormData(document.getElementById('form__registro'));
 
 form__registro.addEventListener('submit', (e) => {
   e.preventDefault();
